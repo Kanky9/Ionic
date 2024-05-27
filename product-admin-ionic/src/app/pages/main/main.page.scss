@@ -1,0 +1,36 @@
+ion-content{
+    --padding-top: 20px; 
+}
+
+ion-item{
+    font-size: 14px;
+
+    &.active{
+        color: var(--ion-color-primary);
+
+        ion-icon{
+            color: var(--ion-color-primary);
+        }
+    }
+}
+
+h4{
+    font-weight: bold;
+    margin-left: 0;
+    margin-top: 5px;
+}
+ion-avatar{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.empty-icon{
+    font-size: 100px;
+}
+
+ion-menu{
+    --width: 254px;
+    --min-width: 254px;
+    outline: none; 
+}
